@@ -1,0 +1,19 @@
+{
+  "name": "portefolio",
+  "version": "1.0.0",
+  "description": "Portefolio perso",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanChosson/Portefolio.git"
+  },
+  "author": "Chosson Jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonathanChosson/Portefolio/issues"
+  },
+  "homepage": "https://github.com/JonathanChosson/Portefolio#readme"
+}
