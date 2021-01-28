@@ -74,7 +74,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: grey;
   display: flex;
   justify-content: center;
 }
@@ -85,6 +84,7 @@ main {
   width: 425px;
   height: auto;
   overflow: hidden;
+  background-color: grey;
 }
 main * {
   margin: 0px;
