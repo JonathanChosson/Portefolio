@@ -1,10 +1,14 @@
+//affiche et masque #MaFiche
 let btnMaFiche = document.getElementById('btnMaFiche');
 let retourMafiche = document.getElementById('retourMafiche');
 
 btnMaFiche.addEventListener('click', function(){
-    toggleAffichage(MaFiche);
+    affichageApp(MaFiche);
 })
 
 retourMafiche.addEventListener('click', function(){
-    toggleAffichage(MaFiche);
+    masquageApp(MaFiche);
 })
+
+window.setInterval(affichage, 1000);
+let interval = window.setInterval(affichage, 1000);
