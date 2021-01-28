@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+    width : auto;
+    overflow: hidden;
+    & * {
+        margin: 0px;
+        padding: 0px;
+    }
+}
