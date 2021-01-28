@@ -20,7 +20,7 @@
         <!--Fin Header-->
         <!-- debut Div center -->
         <div class="divCenter">
-            <div class="divCenter__app">
+            <div class="divCenter__app" id="btnMaFiche">
                 <div class="divCenter__app__icon divCenter__app__icon--maFiche">
                     <span class="divCenter__app__icon__span fas fa-user"></span>
                 </div>
@@ -46,9 +46,9 @@
             </div>
         </div>
         <!-- debut maFiche -->
-        <div class="divApp__maFiche">
+        <div class="divApp__maFiche invisible" id="MaFiche">
             <div class="divApp__maFiche__retour">
-                <span class="fas fa-arrow-left divApp__maFiche__retour__span"></span>
+                <span class="fas fa-arrow-left divApp__maFiche__retour__span" id="retourMafiche"></span>
             </div>
             <img src="./Public/images/ChossonJonathan.png" title="Chosson Jonathan" alt="Chosson Jonathan" class="divApp__maFiche__img"/>
             <h1 class="divApp__maFiche__h1">Chosson Jonathan</h1>
@@ -56,8 +56,10 @@
             <p class="divApp__maFiche__p">Permis B, Véhicule personnel</p>
             <p class="divApp__maFiche__p">Reconnaissance RQTH depuis le 11/09/2019</p>
         </div>
-        
+
         <!-- Fin div center -->
     </main>
+    <script src="./js/functions.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

@@ -2,6 +2,10 @@
   font-weight: bold;
 }
 
+.invisible {
+  display: none;
+}
+
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
