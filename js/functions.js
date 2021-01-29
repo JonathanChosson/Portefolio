@@ -1,6 +1,5 @@
 //Fonction qui affiche une app
 const affichageApp = (app) => {
-    console.log(app);
     app.classList.remove("invisible");
     app.classList.remove("scale-out-center");
     app.classList.add("scale-in-center");
@@ -8,8 +7,6 @@ const affichageApp = (app) => {
 
 //Fonction qui masque une app 
 const masquageApp = (app) => {
-    console.log(app);
-    
     app.classList.remove("scale-in-center");
     app.classList.add("scale-out-center");
 }

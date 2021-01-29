@@ -8,13 +8,14 @@
     <title>Portefolio</title>
 </head>
 <body>
+    
     <main>
         <!-- Début Header -->
         <header class="header">
             <p class="header__p" id="heure">11:35</p>
             <p class="header__notch">---</p>
             <p class="header__p">
-                <class class="fas fa-wifi header__p__span"></class> CJ
+                <class class="fas fa-wifi header__p__span"></class> <span class="fas fa-battery-full header__p__span"></span>
             </p>
         </header>
         <!--Fin Header-->
@@ -26,7 +27,7 @@
                 </div>
                 <p class="divCenter__app__p">Chosson Jonathan</p>
             </div>
-            <div class="divCenter__app">
+            <div class="divCenter__app" id="btnFormation">
                 <div class="divCenter__app__icon divCenter__app__icon--formation">
                     <span class="divCenter__app__icon__span fas fa-graduation-cap"></span>
                 </div>
@@ -51,15 +52,49 @@
                 <span class="fas fa-arrow-left divApp__maFiche__retour__span" id="retourMafiche"></span>
             </div>
             <img src="./Public/images/ChossonJonathan.png" title="Chosson Jonathan" alt="Chosson Jonathan" class="divApp__maFiche__img"/>
-            <h1 class="divApp__maFiche__h1">Chosson Jonathan</h1>
+            <p class="divApp__maFiche__h1">Chosson Jonathan</p>
             <p class="divApp__maFiche__p"><span class="bold">Adresse : </span>15 rue de la Licorne 26300 Marches</p>
             <p class="divApp__maFiche__p">Permis B, Véhicule personnel</p>
             <p class="divApp__maFiche__p">Reconnaissance RQTH depuis le 11/09/2019</p>
         </div>
-
+        <!-- debut formation -->
+        <div class="divApp__formation invisible" id="formation">
+            <div class="divApp__formation__retour">
+                <span class="fas fa-arrow-left divApp__formation__retour__span" id="retourFormation"></span>
+            </div>
+            <span class="divApp__maFiche__img fas fa-graduation-cap"></span>
+            <p class="divApp__maFiche__h1">Ma formation</p>
+            <table class="divApp__formation__table">
+                <tbody>
+                    <tr class="divApp__formation__table__tr">
+                        <td class="divApp__formation__table__tr__td">2021</td>
+                        <td class="divApp__formation__table__tr__td"><span class="bold">Titre Pro. Developpeur Web</span> <br /> OpenClassroom</td>
+                        <td class="divApp__formation__table__tr__td">Marches (26)</td>
+                    </tr>
+                    <tr class="divApp__formation__table__tr">
+                        <td class="divApp__formation__table__tr__td">2014</td>
+                        <td class="divApp__formation__table__tr__td"><span class="bold">Titre Pro. Commercial</span> <br /> INFA</td>
+                        <td class="divApp__formation__table__tr__td">Romans (26)</td>
+                    </tr>
+                    <tr class="divApp__formation__table__tr">
+                        <td class="divApp__formation__table__tr__td">2004</td>
+                        <td class="divApp__formation__table__tr__td"><span class="bold">Bac pro Vente</span> <br />Montplaisir</td>
+                        <td class="divApp__formation__table__tr__td">Valence (26)</td>
+                    </tr>
+                    <tr class="divApp__formation__table__tr">
+                        <td class="divApp__formation__table__tr__td">2002</td>
+                        <td class="divApp__formation__table__tr__td"><span class="bold">BEP Vente</span> <br /> Les Alpilles</td>
+                        <td class="divApp__formation__table__tr__td">Miramas (13)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <!-- Fin div center -->
+        
     </main>
+    <canvas id="canvas"></canvas>
     <script src="./js/functions.js"></script>
     <script src="./js/index.js"></script>
+    <script src="./js/animationMatrix.js"></script>
 </body>
 </html>
