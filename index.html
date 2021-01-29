@@ -33,17 +33,17 @@
                 </div>
                 <p class="divCenter__app__p">Formation</p>
             </div>
-            <div class="divCenter__app">
+            <div class="divCenter__app" id="btnExperience">
                 <div class="divCenter__app__icon divCenter__app__icon--experiences">
                     <span class="divCenter__app__icon__span fas fa-building"></span>
                 </div>
                 <p class="divCenter__app__p">Expériences</p>
             </div>
             <div class="divCenter__app">
-                <div class="divCenter__app__icon">
-                    <span class="divCenter__app__icon__span fas fa-graduation-cap"></span>
+                <div class="divCenter__app__icon divCenter__app__icon--soft">
+                    <span class="divCenter__app__icon__span fas fa-users-cog"></span>
                 </div>
-                <p class="divCenter__app__p">Formation</p>
+                <p class="divCenter__app__p">Soft Skills</p>
             </div>
         </div>
         <!-- debut maFiche -->
@@ -62,7 +62,7 @@
             <div class="divApp__formation__retour">
                 <span class="fas fa-arrow-left divApp__formation__retour__span" id="retourFormation"></span>
             </div>
-            <span class="divApp__maFiche__img fas fa-graduation-cap"></span>
+            <span class="divApp__formation__img fas fa-graduation-cap"></span>
             <p class="divApp__maFiche__h1">Ma formation</p>
             <table class="divApp__formation__table">
                 <tbody>
@@ -89,8 +89,39 @@
                 </tbody>
             </table>
         </div>
+        <!-- debut experience -->
+        <div class="divApp__experience invisible" id="experience">
+            <div class="divApp__experience__retour">
+                <span class="fas fa-arrow-left divApp__experience__retour__span" id="retourExperience"></span>
+            </div>
+            <span class="divApp__experience__img fas fa-building"></span>
+            <p class="divApp__maFiche__h1">Mon Experience</p>
+            <table class="divApp__experience__table">
+                <tbody>
+                    <tr class="divApp__experience__table__tr">
+                        <td class="divApp__experience__table__tr__td">2020<br/>|<br/>2017</td>
+                        <td class="divApp__experience__table__tr__td"><span class="bold">Vendeur conseil</span> <br /> SFR</td>
+                        <td class="divApp__experience__table__tr__td">Romans sur Isère</td>
+                    </tr>
+                    <tr class="divApp__experience__table__tr">
+                        <td class="divApp__experience__table__tr__td">2017<br/>|<br/>2016</td>
+                        <td class="divApp__experience__table__tr__td"><span class="bold">Commercial</span> <br /> EG active  Virgin Radio</td>
+                        <td class="divApp__experience__table__tr__td">Lyon</td>
+                    </tr>
+                    <tr class="divApp__experience__table__tr">
+                        <td class="divApp__experience__table__tr__td">2016<br/>|<br/>2015</td>
+                        <td class="divApp__experience__table__tr__td"><span class="bold">Employé libre service</span> <br />Netto</td>
+                        <td class="divApp__experience__table__tr__td">Bourg de Péage</td>
+                    </tr>
+                    <tr class="divApp__experience__table__tr">
+                        <td class="divApp__experience__table__tr__td">2014<br/>|<br/>2010</td>
+                        <td class="divApp__experience__table__tr__td"><span class="bold">Commercial Webmestre</span> <br /> L'Echo Le Valentinois</td>
+                        <td class="divApp__experience__table__tr__td">Valence</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <!-- Fin div center -->
-        
     </main>
     <canvas id="canvas"></canvas>
     <script src="./js/functions.js"></script>

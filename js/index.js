@@ -25,3 +25,15 @@ btnFormation.addEventListener('click', function(){
 retourFormation.addEventListener('click', function(){
     masquageApp(formation);
 })
+
+//affiche et masque #Experience
+let btnExperience = document.getElementById('btnExperience');
+let retourExperience = document.getElementById('retourExperience');
+
+btnExperience.addEventListener('click', function(){
+    affichageApp(experience);
+})
+
+retourExperience.addEventListener('click', function(){
+    masquageApp(experience);
+})
