@@ -228,9 +228,81 @@ main * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
+.divCenter__app__icon--soft {
+  border: 1px #cfcfcf solid;
+  background: rgba(241, 255, 46, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.divCenter__app__icon--hard {
+  border: 1px #cfcfcf solid;
+  background: rgba(255, 46, 63, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.divCenter__app__icon--passions {
+  border: 1px #cfcfcf solid;
+  background: rgba(248, 46, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
 .divCenter__app__p {
   padding: 5px;
   color: #ffffff;
+}
+.divCenter__realisations {
+  margin-top: 15px;
+  padding-top: 10px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.divCenter__realisations__p {
+  position: absolute;
+  top: -10px;
+  left: 15px;
+  color: #ffffff;
+  border-spacing: 0px 15px;
+  border-radius: 38px;
+  background: #c4c4c4;
+  padding: 5px;
+}
+.divCenter__realisations--orinoco {
+  border: 1px #cfcfcf solid;
+  background: rgba(46, 255, 157, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.divCenter__realisations--reservia {
+  border: 1px #cfcfcf solid;
+  background: rgba(46, 77, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.divCenter__realisations--ohmyfood {
+  border: 1px #cfcfcf solid;
+  background: rgba(255, 46, 192, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
 }
 
 .divApp__maFiche {

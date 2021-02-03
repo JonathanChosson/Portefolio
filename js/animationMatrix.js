@@ -3,7 +3,7 @@ var c = document.getElementById("canvas");
         
         //making the canvas full screen
         c.height = window.innerHeight;
-        c.width = window.innerWidth;
+        c.width = "425";
         
         //english characters
         var english = "1001010101110101010101010010101000101011101111010101010110101010101010101110000101";
