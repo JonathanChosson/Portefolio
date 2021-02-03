@@ -7,11 +7,18 @@
     &__app{
         text-align: center;
         width: 25%;
-        height: 110px;
         margin: 10px;
         display: flex;
         flex-flow: column;
         align-items: center;
+        &--mini{
+            text-align: center;
+            width: 18%;
+            margin: 10px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
         &__icon{
             text-align: center;
             padding: 15px;
@@ -21,10 +28,29 @@
             box-sizing : border-box;
             width:80px;
             height: 80px;
-            line-height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &--mini{
+                text-align: center;
+                padding: 15px;
+                border-radius : 18px;
+                -webkit-box-sizing : border-box;
+                -moz-box-sizing : border-box;
+                box-sizing : border-box;
+                width:50px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             &__span{
                 color : $couleurWhite;
                 font-size: 2.3em;
+                &--mini{
+                    color : $couleurWhite;
+                    font-size: 1.4em;
+                }
             }
             &--formation{
                 border     : 1px #cfcfcf solid;
@@ -128,6 +154,7 @@
     &__realisations{
         margin-top: 15px;
         padding-top: 10px;
+        padding-bottom: 10px;
         background: rgba( 255, 255, 255, 0.35 );
         box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
         backdrop-filter: blur( 4px );
@@ -139,14 +166,17 @@
         flex-flow: row wrap;
         justify-content: center;
         &__p{
-            position: absolute;
-            top:-10px;
-            left: 15px;
+            // position: absolute;
+            // z-index: 1;
+            // top:-10px;
+            // left: 15px;
+            flex: 1 100%;
             color: $couleurWhite;
             border-spacing: 0px 15px;
             border-radius: 38px;
             background: #c4c4c4;
-            padding: 5px
+            padding: 5px 5px 5px 20px;
+            margin-top: -15Px;
         }
         &--orinoco{
             border     : 1px #cfcfcf solid;
@@ -181,6 +211,139 @@
         &--ohmyfood{
             border     : 1px #cfcfcf solid;
             background: rgba(255, 46, 192, 0.35);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--meteo{
+            border     : 1px #cfcfcf solid;
+            background: rgba(255, 255, 0, 0.35);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--stationMeteo{
+            border     : 1px #cfcfcf solid;
+            background: rgba(214, 214, 207, 0.35);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--cantine{
+            border     : 1px #cfcfcf solid;
+            background: rgba(255, 0, 0, 0.35);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--peckoko{
+            border     : 1px #cfcfcf solid;
+            background: rgba(4, 0, 255, 0.35);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+    }
+    &__contact{
+        margin-top: 15px;
+        background: rgba( 255, 255, 255, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        &--telephone{
+            border     : 1px #cfcfcf solid;
+            background: rgba(0, 255, 34, 0.664);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--mail{
+            border     : 1px #cfcfcf solid;
+            background: rgba(174, 0, 255, 0.664);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--github{
+            border     : 1px #cfcfcf solid;
+            background: rgba(112, 112, 112, 0.664);
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -webkit-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -moz-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -ms-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : -o-linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // background : linear-gradient(top, #65c1fe 0%, #062bd3 100%);
+            // box-shadow : 0 0 0 1px rgba(134, 254, 101, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05) inset;
+        }
+        &--linkedin{
+            border     : 1px #cfcfcf solid;
+            background: rgba(17, 0, 255, 0.664);
             box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 4px );
             -webkit-backdrop-filter: blur( 4px );
