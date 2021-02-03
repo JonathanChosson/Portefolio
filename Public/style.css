@@ -414,6 +414,7 @@ main * {
   top: 15px;
   margin: 15px;
   height: 90%;
+  max-width: 375px;
   border-radius: 15px;
   padding: 10px;
   background-color: #c4c4c4;
