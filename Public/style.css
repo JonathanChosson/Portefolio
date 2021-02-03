@@ -318,7 +318,7 @@ main * {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .divApp__maFiche__retour {
   width: 100%;
