@@ -1,6 +1,5 @@
 .divApp{
-    &__maFiche{
-        position: absolute;
+    position: absolute;
         color: black;
         top: 15px;
         margin: 15px;
@@ -13,6 +12,8 @@
         flex-flow: column nowrap;
         align-items: center;
         justify-content: center;
+    &__maFiche{
+        
         &__retour{
             width:100%;
             text-align: left;
@@ -56,19 +57,7 @@
         }
     }
     &__formation{
-        position: absolute;
-        color: black;
-        top: 15px;
-        margin: 15px;
-        height: 90%;
-        border-radius: 15px;
-        padding: 10px;
-        background-color: $couleurGrisClair;
-        text-align: center;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        justify-content: space-around;
+        
         &__img{
             font-size: 2.3em;
             border: 1px solid $couleurBlack;
@@ -112,19 +101,7 @@
         }
     }
     &__experience{
-        position: absolute;
-        color: black;
-        top: 15px;
-        margin: 15px;
-        height: 90%;
-        border-radius: 15px;
-        padding: 10px;
-        background-color: $couleurGrisClair;
-        text-align: center;
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        justify-content: space-around;
+       
         &__img{
             font-size: 2.3em;
             border: 1px solid $couleurBlack;
