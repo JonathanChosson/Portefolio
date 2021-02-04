@@ -237,7 +237,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(134, 254, 101, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -245,7 +244,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(129, 129, 129, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -253,7 +251,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(101, 193, 254, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -261,7 +258,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(241, 255, 46, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -269,7 +265,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(255, 46, 63, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -277,7 +272,6 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(248, 46, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
@@ -291,8 +285,6 @@ main * {
   padding-bottom: 10px;
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 30px;
   width: 100%;
   height: auto;
@@ -313,64 +305,48 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(46, 255, 157, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--reservia {
   border: 1px #cfcfcf solid;
   background: rgba(46, 77, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--ohmyfood {
   border: 1px #cfcfcf solid;
   background: rgba(255, 46, 192, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--meteo {
   border: 1px #cfcfcf solid;
   background: rgba(255, 255, 0, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--stationMeteo {
   border: 1px #cfcfcf solid;
   background: rgba(214, 214, 207, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--cantine {
   border: 1px #cfcfcf solid;
   background: rgba(255, 0, 0, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__realisations--peckoko {
   border: 1px #cfcfcf solid;
   background: rgba(4, 0, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__contact {
   margin-top: 10px;
   background: rgba(255, 255, 255, 0.35);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 30px;
   width: 100%;
   height: auto;
@@ -382,32 +358,24 @@ main * {
   border: 1px #cfcfcf solid;
   background: rgba(0, 255, 34, 0.664);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__contact--mail {
   border: 1px #cfcfcf solid;
   background: rgba(174, 0, 255, 0.664);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__contact--github {
   border: 1px #cfcfcf solid;
   background: rgba(112, 112, 112, 0.664);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 .divCenter__contact--linkedin {
   border: 1px #cfcfcf solid;
   background: rgba(17, 0, 255, 0.664);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
 }
 
