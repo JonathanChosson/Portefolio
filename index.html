@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./Public/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c9cc5d14e.js" crossorigin="anonymous"></script>
-    <title>Portefolio</title>
+    <title>Portfolio</title>
 </head>
 <body>
     
@@ -39,7 +39,7 @@
                 </div>
                 <p class="divCenter__app__p">Expériences</p>
             </div>
-            <div class="divCenter__app">
+            <div class="divCenter__app" id="btnSoftSkills">
                 <div class="divCenter__app__icon divCenter__app__icon--soft">
                     <span class="divCenter__app__icon__span fas fa-users-cog"></span>
                 </div>
@@ -228,7 +228,48 @@
                 </tbody>
             </table>
         </div>
-
+        <!-- soft skills -->
+        <div class="divApp invisible" id="softSkills">
+            <div class="divApp__softSkills__retour">
+                <span class="fas fa-arrow-left divApp__softSkills__retour__span" id="retourSoftSkills"></span>
+            </div>
+            <span class="divApp__softSkills__img fas fa-users-cog"></span>
+            <p class="divApp__softSkills__h1">Soft Skills</p>
+            <div class="divApp__softSkills__center">
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-brain"></span>
+                    <p>Résolution de problèmes</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-hands-helping"></span>
+                    <p>Sens de la négociation</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-people-carry"></span>
+                    <p>Esprit d'équipe</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-business-time"></span>
+                    <p>Organisation</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-hand-holding-medical"></span>
+                    <p>Sens du service</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img far fa-clock"></span>
+                    <p>Gestion du temps</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-book"></span>
+                    <p>Aime apprendre</p>
+                </div>
+                <div class="divApp__softSkills__center__skill">
+                    <span class="divApp__softSkills__center__img fas fa-hard-hat"></span>
+                    <p>Forte implication</p>
+                </div>
+            </div>
+        </div>
         <!-- Fin div center -->
     </main>
     <canvas id="canvas"></canvas>

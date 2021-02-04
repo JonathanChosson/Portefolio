@@ -37,3 +37,15 @@ btnExperience.addEventListener('click', function(){
 retourExperience.addEventListener('click', function(){
     masquageApp(experience);
 })
+
+//affiche et masque #softSkills
+let btnSoftSkills = document.getElementById('btnSoftSkills');
+let retourSoftSkills = document.getElementById('retourSoftSkills');
+
+btnSoftSkills.addEventListener('click', function(){
+    affichageApp(softSkills);
+})
+
+retourSoftSkills.addEventListener('click', function(){
+    masquageApp(softSkills);
+})
