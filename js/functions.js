@@ -12,7 +12,7 @@ const masquageApp = (app) => {
 }
 
 //Affiche l'heure
-const affichage = function(){
+const affichageHeure = function(){
     let date = new Date();
 
     let heures = date.getHours();

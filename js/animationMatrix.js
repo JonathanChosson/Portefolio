@@ -2,7 +2,7 @@ var c = document.getElementById("canvas");
         var ctx = c.getContext("2d");
         
         //making the canvas full screen
-        c.height = window.innerHeight;
+        c.height = "800";
         c.width = "425";
         
         //english characters

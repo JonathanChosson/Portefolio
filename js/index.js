@@ -1,6 +1,6 @@
 //affiche l'heure et met à jour
-window.setInterval(affichage, 1000);
-let interval = window.setInterval(affichage, 1000);
+window.setInterval(affichageHeure, 1000);
+let interval = window.setInterval(affichageHeure, 1000);
 
 //affiche et masque #MaFiche
 let btnMaFiche = document.getElementById('btnMaFiche');

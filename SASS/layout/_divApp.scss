@@ -1,5 +1,5 @@
 .divApp{
-    position: absolute;
+        position: absolute;
         color: black;
         top: 15px;
         margin: 15px;
@@ -10,23 +10,23 @@
         background-color: $couleurGrisClair;
         text-align: center;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
     &__maFiche{
-        
+    
         &__retour{
             width:100%;
             text-align: left;
             color: $couleurWhite;
             font-size: 1.5em;
+            cursor: pointer;
         }
         &__img{
             font-size: 4em;
             border: 1px solid $couleurBlack;
             border-radius: 100px;
             width:50%;
-            margin-bottom: 15px;
             background: #c4c4c4;
             box-shadow:  5px 5px 10px #9f9f9f,
                         -5px -5px 10px #e9e9e9;
@@ -58,58 +58,13 @@
         }
     }
     &__formation{
-        
+     
         &__img{
-            font-size: 2.3em;
+            font-size: 2em;
             border: 1px solid $couleurBlack;
             border-radius: 100px;
-            margin-top: 15px;
             width: 20%;
-            // height: 80px;
-            // display: block;
-            // line-height: 80px;
-            background: #c4c4c4;
-            box-shadow:  5px 5px 10px #9f9f9f,
-                        -5px -5px 10px #e9e9e9;
-            &:hover{
-                -webkit-animation: jello-horizontal 0.9s both;
-                animation: jello-horizontal 0.9s both;
-            }
-        }
-        &__retour{
-            width:100%;
-            text-align: left;
-            color: $couleurWhite;
-            font-size: 1.5em;
-        }
-        &__table{
-            border-spacing: 0px 15px;
-            border-radius: 38px;
-            background: #c4c4c4;
-            box-shadow:  5px 5px 10px #9f9f9f,
-                        -5px -5px 10px #e9e9e9;
-            &__tr{
-                // padding:30px;
-                // border-radius: 18px;
-                // background: #c4c4c4;
-                // box-shadow:  5px 5px 10px #9f9f9f,
-                //             -5px -5px 10px #e9e9e9;
-            &__td{
-                font-size: 1.1em;
-                padding: 5px;
-            }
-            }
-        }
-    }
-    &__experience{
-    
-        &__img{
-            font-size: 2.3em;
-            border: 1px solid $couleurBlack;
-            border-radius: 100px;
-            margin-top: 15px;
-            width: 20%;
-            padding: 5px;
+            padding: 10px;
             // height: 80px;
             // display: block;
             // line-height: 80px;
@@ -126,13 +81,28 @@
             text-align: left;
             color: $couleurWhite;
             font-size: 1.3em;
+            cursor: pointer;
+        }
+        &__h1{
+            font-weight: bold;
+            padding: 5px 20px 5px 20px;
+            font-size: 1.8em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 48px;
+            background: #c4c4c4;
+            box-shadow:  5px 5px 10px #9f9f9f,
+                        -5px -5px 10px #e9e9e9;
         }
         &__table{
+            padding: 0px 15px 0px 15px;
+            width: 100%;
             border-spacing: 0px 15px;
             border-radius: 38px;
             background: #c4c4c4;
             box-shadow:  5px 5px 10px #9f9f9f,
                         -5px -5px 10px #e9e9e9;
+            margin-bottom: 8px;
             &__tr{
                 // padding:30px;
                 // border-radius: 18px;
@@ -140,8 +110,67 @@
                 // box-shadow:  5px 5px 10px #9f9f9f,
                 //             -5px -5px 10px #e9e9e9;
             &__td{
-                font-size: 1.1em;
-                padding: 5px;
+                font-size: 1em;
+                padding: 0px 5px 0px 5Px;
+            }
+            }
+        }
+    }
+    &__experience{
+    
+        &__img{
+            font-size: 2em;
+            border: 1px solid $couleurBlack;
+            border-radius: 100px;
+            width: 20%;
+            padding: 10px;
+            // height: 80px;
+            // display: block;
+            // line-height: 80px;
+            background: #c4c4c4;
+            box-shadow:  5px 5px 10px #9f9f9f,
+                        -5px -5px 10px #e9e9e9;
+            &:hover{
+                -webkit-animation: jello-horizontal 0.9s both;
+                animation: jello-horizontal 0.9s both;
+            }
+        }
+        &__retour{
+            width:100%;
+            text-align: left;
+            color: $couleurWhite;
+            font-size: 1.3em;
+            cursor: pointer;
+        }
+        &__h1{
+            font-weight: bold;
+            padding: 5px 20px 5px 20px;
+            font-size: 1.8em;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 48px;
+            background: #c4c4c4;
+            box-shadow:  5px 5px 10px #9f9f9f,
+                        -5px -5px 10px #e9e9e9;
+        }
+        &__table{
+            padding: 0px 15px 0px 15px;
+            width: 100%;
+            border-spacing: 0px 15px;
+            border-radius: 38px;
+            background: #c4c4c4;
+            box-shadow:  5px 5px 10px #9f9f9f,
+                        -5px -5px 10px #e9e9e9;
+            margin-bottom: 8px;
+            &__tr{
+                // padding:30px;
+                // border-radius: 18px;
+                // background: #c4c4c4;
+                // box-shadow:  5px 5px 10px #9f9f9f,
+                //             -5px -5px 10px #e9e9e9;
+            &__td{
+                font-size: 1em;
+                padding: 0px 5px 0px 5Px;
             }
             }
         }
