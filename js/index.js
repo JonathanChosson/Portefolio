@@ -49,3 +49,15 @@ btnSoftSkills.addEventListener('click', function(){
 retourSoftSkills.addEventListener('click', function(){
     masquageApp(softSkills);
 })
+
+//affiche et masque #hardSkills
+let btnHardSkills = document.getElementById('btnHardSkills');
+let retourHardSkills = document.getElementById('retourHardSkills');
+
+btnHardSkills.addEventListener('click', function(){
+    affichageApp(hardSkills);
+})
+
+retourHardSkills.addEventListener('click', function(){
+    masquageApp(hardSkills);
+})
