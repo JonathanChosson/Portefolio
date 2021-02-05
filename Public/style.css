@@ -779,6 +779,31 @@ main * {
   font-size: 1.3em;
   cursor: pointer;
 }
+.divApp__realisation__retour {
+  width: 100%;
+  text-align: left;
+  color: #ffffff;
+  font-size: 1.3em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.divApp__realisation__retour a {
+  color: #ffffff;
+}
+.divApp__realisation__retour a :visited {
+  color: #ffffff;
+}
+.divApp__realisation__center {
+  width: 100%;
+  height: 85%;
+}
+.divApp__realisation__center__iframe {
+  width: 100%;
+  height: 95%;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
 
 .invisible {
   display: none;

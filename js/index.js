@@ -110,3 +110,27 @@ document.getElementById('precedant').addEventListener('click', function(){
     images[imgActive].classList.remove('invisible');
     images[imgActive].classList.add('slide-in-left');
 })
+
+//affiche et masque #reservia
+let btnReservia = document.getElementById('btnReservia');
+let retourReservia = document.getElementById('retourReservia');
+
+btnReservia.addEventListener('click', function(){
+    affichageApp(reservia);
+})
+
+retourReservia.addEventListener('click', function(){
+    masquageApp(reservia);
+})
+
+//affiche et masque #ohMyFood
+let btnOhMyFood = document.getElementById('btnOhMyFood');
+let retourOhMyFood = document.getElementById('retourOhMyFood');
+
+btnOhMyFood.addEventListener('click', function(){
+    affichageApp(ohMyFood);
+})
+
+retourOhMyFood.addEventListener('click', function(){
+    masquageApp(ohMyFood);
+})
